@@ -2,7 +2,6 @@
   community.general.jenkins_job:
     config: "{{ lookup('file', 'templates/s-pipeline.xml') }}"
     name: test
-    token: 113ed12bb5a193366ef1e02178764e9b0b
-    #password: nawaz123
+    password: nawaz123
     url: http://172.31.5.238:8080
     user: nawaz990
